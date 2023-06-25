@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <title>Netfix Homepage Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <table>
+                <tr>
+                    <td style="width:125px">
+                        <img src="logo.png" width="100px" alt="netflix logo">
+                    </td>
+                    <td style="font-size: large; width:65px;">
+                        <p>Home</p>
+                    </td>
+                    <td style="font-size: large; width:100px;">
+                        <p>TV Shows</p>
+                    </td>
+                    <td style="font-size: large; width:75px;">
+                        <p>Movies</p>
+                    </td>
+                    <td style="font-size: large; width:150px;">
+                        <p>Recently Added</p>
+                    </td>
+                    <td style="font-size: large; width:100px;">
+                        <p>My List</p>
+                    </td>
+                    <td style="font-size: large; width:520px;">
+                        <p></p>
+                    </td>
+                    <td style="font-size: large; width:37px;">
+                        <img src="search.png" width="20px" alt="search">
+                    </td>
+                    <td style="font-size: large; width:60px;">
+                        <p>Kids</p>
+                    </td>
+                    <td style="font-size: large; width:65px;">
+                        <p>DVD</p>
+                    </td>
+                    <td style="font-size: large; width:47px;">
+                        <img src="gift.png" width="25px" alt="gift">
+                    </td>
+                    <td style="font-size: large; width:47px;">
+                        <img src="bell.png" width="25px" alt="bell">
+                    </td>
+                    <td style="width: 83px;">
+                        <img src="profile1.png" class="mainProfile" onclick="toggleMenu()"
+                            style="border-radius:10%; width:30px;" alt="profile1">
+                    </td>
+                    <td>
+                        <div class="Profile" id="profileMenu">
+                            <div class="sub_profile">
+                                <div class="profile_select">
+                                    <h4>Profiles</h4>
+                                </div>
+                                <hr>
+                                <a href="#" class="profile_link">
+                                    <img src="profile1.png" width="35px" alt="Profile1">
+                                    <p>Profile 1</p>
+                                </a>
+                                <a href="#" class="profile_link">
+                                    <img src="profile2.png" width="35px" alt="Profile2">
+                                    <p>Profile 2</p>
+                                </a>
+                                <a href="#" class="profile_link">
+                                    <img src="profile3.png" width="35px" alt="Profile3">
+                                    <p>Profile 3</p>
+                                </a>
+                                <a href="#" class="profile_link">
+                                    <img src="profile4.png" width="35px" alt="Profile4">
+                                    <p>Profile 4</p>
+                                </a>
+                                <a href="#" class="profile_link">
+                                    <img src="plus.png" width="35px" alt="Add_new">
+                                    <p>Add New</p>
+                                </a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <div class="banner">
+            <div class="bannar_content">
+                <h1 class="banner_title">CHIMP EMPIRE</h1>
+                <div class="banner_buttons">
+                    <button class="banner_button"> <img src="play.png" width="10px" alt="play">&nbsp; Play </button>
+                    <button class="banner_button"><img src="plus1.jpg" width="12px" alt="add">&nbsp; My List</button>
+                </div>
+                <div class="banner_description">
+                    A vast community of chimpanzees thrives in a forest in Uganda, navigating complex social politics,
+                    family dynamics and dangerous territory disputes.
+                </div>
+            </div>
+            <div class="banner_fade_bottom">
+
+            </div>
+        </div>
+    </header>
+    <!--NETFLIX ORIGINALS-->
+    <div class="row">
+        <h2>NETFLIX ORIGINALS</h2>
+        <div class="row_posters">
+            <img src="org1.jpg" alt="" class="first_row netflix_originals">
+            <img src="org2.jpg" alt="" class="first_row netflix_originals">
+            <img src="org3.jpg" alt="" class="first_row netflix_originals">
+            <img src="org4.jpg" alt="" class="first_row netflix_originals">
+            <img src="org5.jpg" alt="" class="first_row netflix_originals">
+            <img src="org6.jpg" alt="" class="first_row netflix_originals">
+            <img src="org7.jpg" alt="" class="first_row netflix_originals">
+            <img src="org8.jpg" alt="" class="first_row netflix_originals">
+            <img src="org9.jpg" alt="" class="first_row netflix_originals">
+            <img src="org10.png" alt="" class="first_row netflix_originals">
+            <img src="org11.jpg" alt="" class="first_row netflix_originals">
+            <img src="org12.jpg" alt="" class="first_row netflix_originals">
+            <img src="org13.jpg" alt="" class="first_row netflix_originals">
+            <img src="org14.jpg" alt="" class="first_row netflix_originals">
+            <img src="org15.jpg" alt="" class="first_row netflix_originals">
+            <img src="org16.png" alt="" class="first_row netflix_originals">
+            <img src="org17.jpg" alt="" class="first_row netflix_originals">
+            <img src="org18.jpg" alt="" class="first_row netflix_originals">
+            <img src="org19.png" alt="" class="first_row netflix_originals">
+        </div>
+    </div>
+    <!--TRENDING NOW-->
+    <div class="row">
+        <h2>Trending Now</h2>
+        <div class="row_posters">
+            <img src="trend1.jpg" alt="" class="first_row">
+            <img src="trend2.png" alt="" class="first_row">
+            <img src="trend3.jpg" alt="" class="first_row">
+            <img src="trend4.jpg" alt="" class="first_row">
+            <img src="trend5.jpg" alt="" class="first_row">
+            <img src="trend6.jpg" alt="" class="first_row">
+            <img src="trend7.jpg" alt="" class="first_row">
+            <img src="trend8.jpg" alt="" class="first_row">
+            <img src="trend9.jpg" alt="" class="first_row">
+            <img src="trend10.jpg" alt="" class="first_row">
+            <img src="trend11.jpg" alt="" class="first_row">
+            <img src="trend12.jpg" alt="" class="first_row">
+            <img src="trend13.jpg" alt="" class="first_row">
+            <img src="trend14.jpg" alt="" class="first_row">
+            <img src="trend15.jpg" alt="" class="first_row">
+        </div>
+    </div>
+    <!--TOP RATED-->
+    <div class="row">
+        <h2>Top Rated</h2>
+        <div class="row_posters">
+            <img src="top1.jpg" alt="" class="first_row">
+            <img src="top2.png" alt="" class="first_row">
+            <img src="top3.jpg" alt="" class="first_row">
+            <img src="top4.jpg" alt="" class="first_row">
+            <img src="top5.jpg" alt="" class="first_row">
+            <img src="top6.png" alt="" class="first_row">
+            <img src="top7.jpg" alt="" class="first_row">
+            <img src="top8.jpg" alt="" class="first_row">
+            <img src="top9.jpg" alt="" class="first_row">
+            <img src="top10.jpg" alt="" class="first_row">
+            <img src="top11.jpg" alt="" class="first_row">
+            <img src="top12.jpg" alt="" class="first_row">
+            <img src="top13.jpg" alt="" class="first_row">
+            <img src="top14.jpg" alt="" class="first_row">
+            <img src="top15.jpg" alt="" class="first_row">
+        </div>
+    </div>
+    <!--THRILLER-->
+    <div class="row">
+        <h2>Thriller</h2>
+        <div class="row_posters">
+            <img src="thrill1.jpg" alt="" class="first_row">
+            <img src="thrill2.jpeg" alt="" class="first_row">
+            <img src="thrill3.jpg" alt="" class="first_row">
+            <img src="thrill4.jpg" alt="" class="first_row">
+            <img src="thrill5.jpg" alt="" class="first_row">
+            <img src="thrill6.jpg" alt="" class="first_row">
+            <img src="thrill7.jpg" alt="" class="first_row">
+            <img src="thrill8.jpg" alt="" class="first_row">
+        </div>
+    </div>
+    <!--SUSPENSE-->
+    <div class="row">
+        <h2>Suspense</h2>
+        <div class="row_posters">
+            <img src="sus1.jpg" alt="" class="first_row">
+            <img src="sus2.jpg" alt="" class="first_row">
+            <img src="sus3.jpg" alt="" class="first_row">
+            <img src="sus4.jpg" alt="" class="first_row">
+            <img src="sus5.jpg" alt="" class="first_row">
+            <img src="sus6.jpg" alt="" class="first_row">
+            <img src="sus7.jpg" alt="" class="first_row">
+            <img src="sus8.jpg" alt="" class="first_row">
+        </div>
+    </div>
+    <!--HORROR-->
+    <div class="row">
+        <h2>Horror</h2>
+        <div class="row_posters">
+            <img src="hor1.jpg" alt="" class="first_row">
+            <img src="hor2.jpg" alt="" class="first_row">
+            <img src="hor3.jpg" alt="" class="first_row">
+            <img src="hor4.jpg" alt="" class="first_row">
+            <img src="hor5.jpg" alt="" class="first_row">
+            <img src="hor6.png" alt="" class="first_row">
+            <img src="hor7.jpg" alt="" class="first_row">
+            <img src="hor8.jpg" alt="" class="first_row">
+        </div>
+    </div>
+    <!--ROMANCE-->
+    <div class="row">
+        <h2>Romance</h2>
+        <div class="row_posters">
+            <img src="rom1.jpg" alt="" class="first_row">
+            <img src="rom2.jpg" alt="" class="first_row">
+            <img src="rom3.jpg" alt="" class="first_row">
+            <img src="rom4.jpg" alt="" class="first_row">
+            <img src="rom5.jpg" alt="" class="first_row">
+            <img src="rom6.jpg" alt="" class="first_row">
+            <img src="rom7.jpg" alt="" class="first_row">
+            <img src="rom8.jpg" alt="" class="first_row">
+        </div>
+    </div>
+    <!--DOCUMENTARY-->
+    <div class="row">
+        <h2>Documentaries</h2>
+        <div class="row_posters">
+            <img src="doc1.jpg" alt="" class="first_row">
+            <img src="doc2.jpg" alt="" class="first_row">
+            <img src="doc3.jpg" alt="" class="first_row">
+            <img src="doc4.jpg" alt="" class="first_row">
+            <img src="doc5.jpg" alt="" class="first_row">
+            <img src="doc6.jpg" alt="" class="first_row">
+            <img src="doc7.jpg" alt="" class="first_row">
+            <img src="doc8.jpg" alt="" class="first_row">
+        </div>
+    </div>
+    <br><br>
+    <section>
+        <div class="sub-links">
+            <a href="#" style="text-align: left; margin-left: 150px;">Questions? Call 000-800-919-1694</a><br><br><br>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Media Centre</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Buy Gift Cards</a></li>
+                <li><a href="#">Ways to watch</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Only on Netflix</a></li>
+            </ul>
+        </div>
+    </section>
+    <select name="language" id="lang">
+        <option value="eng">English</option>
+        <option value="eng">हिन्दी</option>
+    </select>
+    <br><br>
+    <footer>
+        <p>Netflix India</p><br>
+        <p>By Navdeep Gupta</p><br><br>
+        <!--END-->
+    </footer>
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu() {
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+
+</html>
